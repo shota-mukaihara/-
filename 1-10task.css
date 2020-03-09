@@ -64,24 +64,31 @@ main{
 
 
 @media screen and (max-width:768px) {
-  .clearfix{
+  main{
     width: 90%;
-    margin: 50px auto;
+    margin: 50px 0 50px 50px;
   }
   .step-box{
-    margin: 20px 0;
+    width: 90%;
+    margin: 20px;
     float: none;
   }
   .step-img1{
-    float: none;
-    float: none;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    background-position: bottom center;
   }
   .step-img2{
-    float: none;
-    float: none;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    background-position: bottom center;
   }
   .step-img3{
-    float: none;
-    float: none;
+    height: 230px;
+    background-position: center;
+    background-size: cover;
+    background-position: bottom center;
   }
 }
