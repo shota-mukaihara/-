@@ -61,3 +61,27 @@ main{
 .title{
   margin: 15px 0 5px;
 }
+
+
+@media screen and (max-width:768px) {
+  .clearfix{
+    width: 90%;
+    margin: 50px auto;
+  }
+  .step-box{
+    margin: 20px 0;
+    float: none;
+  }
+  .step-img1{
+    float: none;
+    float: none;
+  }
+  .step-img2{
+    float: none;
+    float: none;
+  }
+  .step-img3{
+    float: none;
+    float: none;
+  }
+}
