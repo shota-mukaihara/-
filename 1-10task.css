@@ -62,33 +62,43 @@ main{
   margin: 15px 0 5px;
 }
 
-
 @media screen and (max-width:768px) {
   main{
-    width: 90%;
-    margin: 50px 0 50px 50px;
+    width: 100%;
+    margin: 50px auto;
   }
   .step-box{
     width: 90%;
-    margin: 20px;
+    margin: 0 auto;
+    margin-bottom: 20px;
     float: none;
   }
+  .step-box:nth-child(2){
+    margin: 20px auto;
+  }
+  .step-box:nth-child(3){
+    margin: 20px auto;
+  }
   .step-img1{
-    height: 230px;
-    background-position: center;
+    height: 260px;
+    background-position: bottom;
     background-size: cover;
-    background-position: bottom center;
   }
   .step-img2{
-    height: 230px;
-    background-position: center;
+    height: 260px;
+    background-position: bottom;
     background-size: cover;
-    background-position: bottom center;
   }
   .step-img3{
-    height: 230px;
-    background-position: center;
+    height: 260px;
+    background-position: bottom;
     background-size: cover;
-    background-position: bottom center;
+  }
+  .title{
+    margin: 15px 0 5px;
+    font-size: 33px
+  }
+  .text{
+    font-size: 30px;
   }
 }
